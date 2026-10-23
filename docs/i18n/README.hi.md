@@ -6,13 +6,13 @@
 
 **आपकी टीम का दूसरा दिमाग — लोकल Markdown नोट्स, पीयर‑टू‑पीयर साझा, और Claude द्वारा पढ़े जा सकने वाले।**
 
-[![CI](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml/badge.svg)](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml)
+[![CI](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml/badge.svg)](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml)
 [![लाइसेंस: MIT](https://img.shields.io/badge/license-MIT-e3a43a.svg)](../../LICENSE)
 ![प्लेटफ़ॉर्म](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux-555)
 ![MCP](https://img.shields.io/badge/MCP-Claude%20ready-d97757)
 
-<a href="https://github.com/renankelm10/briefingMCP/releases/latest"><img src="https://img.shields.io/badge/%E0%A4%A1%E0%A4%BE%E0%A4%89%E0%A4%A8%E0%A4%B2%E0%A5%8B%E0%A4%A1-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="डाउनलोड" height="40"></a>
-<a href="https://github.com/renankelm10/briefingMCP/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Frenankelm10%2FbriefingMCP%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases/latest"><img src="https://img.shields.io/badge/%E0%A4%A1%E0%A4%BE%E0%A4%89%E0%A4%A8%E0%A4%B2%E0%A5%8B%E0%A4%A1-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="डाउनलोड" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpaulohramoss%2Fbriefing%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
 
 
 <!-- langs -->
@@ -92,7 +92,7 @@ Briefing एक डेस्कटॉप नोट्स ऐप है, उन �
 
 ## इंस्टॉलेशन
 
-अपने सिस्टम के लिए नवीनतम बिल्ड **[Releases](https://github.com/renankelm10/briefingMCP/releases)** से डाउनलोड करें।
+अपने सिस्टम के लिए नवीनतम बिल्ड **[Releases](https://github.com/paulohramoss/briefing/releases)** से डाउनलोड करें।
 
 | सिस्टम | फ़ाइल | नोट |
 |---|---|---|
@@ -107,8 +107,8 @@ Briefing एक डेस्कटॉप नोट्स ऐप है, उन �
 [Node.js 22+](https://nodejs.org) ज़रूरी है।
 
 ```bash
-git clone https://github.com/renankelm10/briefingMCP.git
-cd briefingMCP
+git clone https://github.com/paulohramoss/briefing.git
+cd briefing
 npm install
 npm start            # ऐप चलाएँ
 npm run dist         # अपने सिस्टम के लिए इंस्टॉलर बनाएँ (release/ में)
@@ -127,7 +127,7 @@ npm run dist         # अपने सिस्टम के लिए इं�
 **✦ Segundo cérebro → Conectar automaticamente** खोलें, या चलाएँ:
 
 ```bash
-claude mcp add briefing --scope user -- node "/path/to/briefingMCP/src/mcp/server.mjs"
+claude mcp add briefing --scope user -- node "/path/to/briefing/src/mcp/server.mjs"
 ```
 
 Claude Code को रीस्टार्ट करें। सर्वर खुला vault और सभी टीम फ़ोल्डर उपलब्ध कराता है:
@@ -188,4 +188,4 @@ Issues और pull requests का स्वागत है। सेटअप,
 
 ## लाइसेंस
 
-[MIT](../../LICENSE) © 2026 Renan Kelm
+[MIT](../../LICENSE) © 2026 Renan Kelm, Paulo Ramos

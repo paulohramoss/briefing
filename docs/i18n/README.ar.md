@@ -8,13 +8,13 @@
 
 **العقل الثاني لفريقك — ملاحظات Markdown محلية، تُشارَك من جهاز إلى جهاز مباشرةً، ويستطيع Claude قراءتها.**
 
-[![CI](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml/badge.svg)](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml)
+[![CI](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml/badge.svg)](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml)
 [![الترخيص: MIT](https://img.shields.io/badge/license-MIT-e3a43a.svg)](../../LICENSE)
 ![المنصات](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux-555)
 ![MCP](https://img.shields.io/badge/MCP-Claude%20ready-d97757)
 
-<a href="https://github.com/renankelm10/briefingMCP/releases/latest"><img src="https://img.shields.io/badge/%D8%AA%D9%86%D8%B2%D9%8A%D9%84-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="تنزيل" height="40"></a>
-<a href="https://github.com/renankelm10/briefingMCP/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Frenankelm10%2FbriefingMCP%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases/latest"><img src="https://img.shields.io/badge/%D8%AA%D9%86%D8%B2%D9%8A%D9%84-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="تنزيل" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpaulohramoss%2Fbriefing%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
 
 
 <!-- langs -->
@@ -94,7 +94,7 @@ Briefing تطبيق ملاحظات لسطح المكتب مصمَّم للفرق
 
 ## التثبيت
 
-نزّل أحدث إصدار لنظامك من صفحة **[Releases](https://github.com/renankelm10/briefingMCP/releases)**.
+نزّل أحدث إصدار لنظامك من صفحة **[Releases](https://github.com/paulohramoss/briefing/releases)**.
 
 | النظام | الملف | ملاحظات |
 |---|---|---|
@@ -111,8 +111,8 @@ Briefing تطبيق ملاحظات لسطح المكتب مصمَّم للفرق
 <div dir="ltr">
 
 ```bash
-git clone https://github.com/renankelm10/briefingMCP.git
-cd briefingMCP
+git clone https://github.com/paulohramoss/briefing.git
+cd briefing
 npm install
 npm start            # تشغيل التطبيق
 npm run dist         # بناء مثبّت لنظامك (في release/)
@@ -135,7 +135,7 @@ npm run dist         # بناء مثبّت لنظامك (في release/)
 <div dir="ltr">
 
 ```bash
-claude mcp add briefing --scope user -- node "/path/to/briefingMCP/src/mcp/server.mjs"
+claude mcp add briefing --scope user -- node "/path/to/briefing/src/mcp/server.mjs"
 ```
 
 </div>
@@ -198,6 +198,6 @@ claude mcp add briefing --scope user -- node "/path/to/briefingMCP/src/mcp/serve
 
 ## الترخيص
 
-[MIT](../../LICENSE) © 2026 Renan Kelm
+[MIT](../../LICENSE) © 2026 Renan Kelm, Paulo Ramos
 
 </div>

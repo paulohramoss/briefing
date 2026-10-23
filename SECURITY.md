@@ -6,7 +6,7 @@ part of the design. This document explains the threat model, what is protected, 
 ## Reporting a vulnerability
 
 Please **do not open a public issue** for security problems. Use GitHub's
-[private vulnerability reporting](https://github.com/renankelm10/briefingMCP/security/advisories/new)
+[private vulnerability reporting](https://github.com/paulohramoss/briefing/security/advisories/new)
 or e-mail the maintainer. You will get an answer within 7 days.
 
 ## Threat model

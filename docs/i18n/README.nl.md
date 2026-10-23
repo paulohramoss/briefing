@@ -6,13 +6,13 @@
 
 **Het tweede brein van je team — lokale Markdown-notities, peer‑to‑peer gedeeld en leesbaar voor Claude.**
 
-[![CI](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml/badge.svg)](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml)
+[![CI](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml/badge.svg)](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml)
 [![Licentie: MIT](https://img.shields.io/badge/licentie-MIT-e3a43a.svg)](../../LICENSE)
 ![Platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux-555)
 ![MCP](https://img.shields.io/badge/MCP-klaar%20voor%20Claude-d97757)
 
-<a href="https://github.com/renankelm10/briefingMCP/releases/latest"><img src="https://img.shields.io/badge/Downloaden-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="Downloaden" height="40"></a>
-<a href="https://github.com/renankelm10/briefingMCP/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Frenankelm10%2FbriefingMCP%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases/latest"><img src="https://img.shields.io/badge/Downloaden-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="Downloaden" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpaulohramoss%2Fbriefing%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
 
 
 <!-- langs -->
@@ -92,7 +92,7 @@ Het resultaat: jij en een collega kunnen tegelijk elk met jullie eigen Claude we
 
 ## Installatie
 
-Download de nieuwste versie voor je systeem via **[Releases](https://github.com/renankelm10/briefingMCP/releases)**.
+Download de nieuwste versie voor je systeem via **[Releases](https://github.com/paulohramoss/briefing/releases)**.
 
 | Systeem | Bestand | Opmerkingen |
 |---|---|---|
@@ -107,8 +107,8 @@ Bij de eerste start maakt Briefing een voorbeeldvault in `Documenten/Briefing`. 
 Vereist [Node.js 22+](https://nodejs.org).
 
 ```bash
-git clone https://github.com/renankelm10/briefingMCP.git
-cd briefingMCP
+git clone https://github.com/paulohramoss/briefing.git
+cd briefing
 npm install
 npm start            # start de app
 npm run dist         # maakt een installatieprogramma voor je systeem (in release/)
@@ -127,7 +127,7 @@ Briefing moet op beide computers open zijn om te synchroniseren. Iedereen met de
 Open **✦ Segundo cérebro → Conectar automaticamente**, of voer uit:
 
 ```bash
-claude mcp add briefing --scope user -- node "/pad/naar/briefingMCP/src/mcp/server.mjs"
+claude mcp add briefing --scope user -- node "/pad/naar/briefing/src/mcp/server.mjs"
 ```
 
 Start Claude Code opnieuw. De server stelt de geopende vault en alle teammappen beschikbaar:
@@ -188,4 +188,4 @@ Issues en pull requests zijn welkom. Zie **[CONTRIBUTING.md](../../CONTRIBUTING.
 
 ## Licentie
 
-[MIT](../../LICENSE) © 2026 Renan Kelm
+[MIT](../../LICENSE) © 2026 Renan Kelm, Paulo Ramos

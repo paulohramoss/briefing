@@ -6,13 +6,13 @@
 
 **Ekibinizin ikinci beyni — yerel Markdown notları, eşler arası (peer‑to‑peer) paylaşılan ve Claude tarafından okunabilen.**
 
-[![CI](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml/badge.svg)](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml)
+[![CI](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml/badge.svg)](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml)
 [![Lisans: MIT](https://img.shields.io/badge/lisans-MIT-e3a43a.svg)](../../LICENSE)
 ![Platformlar](https://img.shields.io/badge/platformlar-Windows%20%7C%20macOS%20%7C%20Linux-555)
 ![MCP](https://img.shields.io/badge/MCP-Claude%20için%20hazır-d97757)
 
-<a href="https://github.com/renankelm10/briefingMCP/releases/latest"><img src="https://img.shields.io/badge/%C4%B0ndir-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="İndir" height="40"></a>
-<a href="https://github.com/renankelm10/briefingMCP/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Frenankelm10%2FbriefingMCP%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases/latest"><img src="https://img.shields.io/badge/%C4%B0ndir-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="İndir" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpaulohramoss%2Fbriefing%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
 
 
 <!-- langs -->
@@ -92,7 +92,7 @@ Sonuç: Siz ve bir ekip arkadaşınız aynı anda, her biriniz kendi Claude'unuz
 
 ## Kurulum
 
-Sisteminiz için en son sürümü **[Releases](https://github.com/renankelm10/briefingMCP/releases)** sayfasından indirin.
+Sisteminiz için en son sürümü **[Releases](https://github.com/paulohramoss/briefing/releases)** sayfasından indirin.
 
 | Sistem | Dosya | Notlar |
 |---|---|---|
@@ -107,8 +107,8 @@ Sisteminiz için en son sürümü **[Releases](https://github.com/renankelm10/br
 [Node.js 22+](https://nodejs.org) gerekir.
 
 ```bash
-git clone https://github.com/renankelm10/briefingMCP.git
-cd briefingMCP
+git clone https://github.com/paulohramoss/briefing.git
+cd briefing
 npm install
 npm start            # uygulamayı çalıştırır
 npm run dist         # sisteminiz için kurulum dosyası oluşturur (release/ içinde)
@@ -127,7 +127,7 @@ Eşitleme için Briefing'in iki bilgisayarda da açık olması gerekir. Kodu ola
 **✦ Segundo cérebro → Conectar automaticamente** seçeneğini açın ya da şunu çalıştırın:
 
 ```bash
-claude mcp add briefing --scope user -- node "/yol/briefingMCP/src/mcp/server.mjs"
+claude mcp add briefing --scope user -- node "/yol/briefing/src/mcp/server.mjs"
 ```
 
 Claude Code'u yeniden başlatın. Sunucu açık vault'u ve tüm ekip klasörlerini sunar:
@@ -188,4 +188,4 @@ Issue ve pull request'lere açığız. Kurulum, testler ve proje yapısı için 
 
 ## Lisans
 
-[MIT](../../LICENSE) © 2026 Renan Kelm
+[MIT](../../LICENSE) © 2026 Renan Kelm, Paulo Ramos

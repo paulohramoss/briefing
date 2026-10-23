@@ -6,13 +6,13 @@
 
 **チームのセカンドブレイン ― ローカルの Markdown ノートをピアツーピアで共有し、Claude からも読める。**
 
-[![CI](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml/badge.svg)](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml)
+[![CI](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml/badge.svg)](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml)
 [![ライセンス: MIT](https://img.shields.io/badge/license-MIT-e3a43a.svg)](../../LICENSE)
 ![プラットフォーム](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux-555)
 ![MCP](https://img.shields.io/badge/MCP-Claude%20ready-d97757)
 
-<a href="https://github.com/renankelm10/briefingMCP/releases/latest"><img src="https://img.shields.io/badge/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="ダウンロード" height="40"></a>
-<a href="https://github.com/renankelm10/briefingMCP/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Frenankelm10%2FbriefingMCP%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases/latest"><img src="https://img.shields.io/badge/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="ダウンロード" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpaulohramoss%2Fbriefing%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
 
 
 <!-- langs -->
@@ -92,7 +92,7 @@ Briefing は、**間にクラウドサービスを挟まずに、ひとつの共
 
 ## インストール
 
-お使いのシステム向けの最新版を **[Releases](https://github.com/renankelm10/briefingMCP/releases)** からダウンロードしてください。
+お使いのシステム向けの最新版を **[Releases](https://github.com/paulohramoss/briefing/releases)** からダウンロードしてください。
 
 | システム | ファイル | 備考 |
 |---|---|---|
@@ -107,8 +107,8 @@ Briefing は、**間にクラウドサービスを挟まずに、ひとつの共
 [Node.js 22+](https://nodejs.org) が必要です。
 
 ```bash
-git clone https://github.com/renankelm10/briefingMCP.git
-cd briefingMCP
+git clone https://github.com/paulohramoss/briefing.git
+cd briefing
 npm install
 npm start            # アプリを起動
 npm run dist         # 現在の OS 用インストーラーを作成（release/ に出力）
@@ -127,7 +127,7 @@ npm run dist         # 現在の OS 用インストーラーを作成（release/
 **✦ Segundo cérebro → Conectar automaticamente** を開くか、次を実行します：
 
 ```bash
-claude mcp add briefing --scope user -- node "/path/to/briefingMCP/src/mcp/server.mjs"
+claude mcp add briefing --scope user -- node "/path/to/briefing/src/mcp/server.mjs"
 ```
 
 Claude Code を再起動します。サーバーは開いている保管庫とすべてのチームフォルダを提供します：
@@ -188,4 +188,4 @@ Issue やプルリクエストを歓迎します。セットアップ、テス�
 
 ## ライセンス
 
-[MIT](../../LICENSE) © 2026 Renan Kelm
+[MIT](../../LICENSE) © 2026 Renan Kelm, Paulo Ramos

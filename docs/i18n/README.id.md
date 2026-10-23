@@ -6,13 +6,13 @@
 
 **Otak kedua tim Anda — catatan Markdown lokal, dibagikan secara peer‑to‑peer, dan dapat dibaca oleh Claude.**
 
-[![CI](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml/badge.svg)](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml)
+[![CI](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml/badge.svg)](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml)
 [![Lisensi: MIT](https://img.shields.io/badge/lisensi-MIT-e3a43a.svg)](../../LICENSE)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-555)
 ![MCP](https://img.shields.io/badge/MCP-siap%20untuk%20Claude-d97757)
 
-<a href="https://github.com/renankelm10/briefingMCP/releases/latest"><img src="https://img.shields.io/badge/Unduh-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="Unduh" height="40"></a>
-<a href="https://github.com/renankelm10/briefingMCP/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Frenankelm10%2FbriefingMCP%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases/latest"><img src="https://img.shields.io/badge/Unduh-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="Unduh" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpaulohramoss%2Fbriefing%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
 
 
 <!-- langs -->
@@ -92,7 +92,7 @@ Hasilnya: Anda dan rekan kerja dapat bekerja bersamaan, masing-masing dengan Cla
 
 ## Instalasi
 
-Unduh versi terbaru untuk sistem Anda dari **[Releases](https://github.com/renankelm10/briefingMCP/releases)**.
+Unduh versi terbaru untuk sistem Anda dari **[Releases](https://github.com/paulohramoss/briefing/releases)**.
 
 | Sistem | Berkas | Catatan |
 |---|---|---|
@@ -107,8 +107,8 @@ Saat pertama kali dibuka, Briefing membuat vault contoh di `Dokumen/Briefing`. G
 Membutuhkan [Node.js 22+](https://nodejs.org).
 
 ```bash
-git clone https://github.com/renankelm10/briefingMCP.git
-cd briefingMCP
+git clone https://github.com/paulohramoss/briefing.git
+cd briefing
 npm install
 npm start            # menjalankan aplikasi
 npm run dist         # membuat installer untuk sistem Anda (di release/)
@@ -127,7 +127,7 @@ Briefing harus berjalan di kedua komputer agar sinkronisasi terjadi. Siapa pun y
 Buka **✦ Segundo cérebro → Conectar automaticamente**, atau jalankan:
 
 ```bash
-claude mcp add briefing --scope user -- node "/path/to/briefingMCP/src/mcp/server.mjs"
+claude mcp add briefing --scope user -- node "/path/to/briefing/src/mcp/server.mjs"
 ```
 
 Mulai ulang Claude Code. Server menyediakan vault yang terbuka dan semua folder tim:
@@ -188,4 +188,4 @@ Issue dan pull request sangat diterima. Lihat **[CONTRIBUTING.md](../../CONTRIBU
 
 ## Lisensi
 
-[MIT](../../LICENSE) © 2026 Renan Kelm
+[MIT](../../LICENSE) © 2026 Renan Kelm, Paulo Ramos

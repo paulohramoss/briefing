@@ -6,13 +6,13 @@
 
 **Your team's second brain — local Markdown notes, shared peer‑to‑peer, readable by Claude.**
 
-[![CI](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml/badge.svg)](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml)
+[![CI](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml/badge.svg)](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-e3a43a.svg)](LICENSE)
 ![Platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux-555)
 ![MCP](https://img.shields.io/badge/MCP-Claude%20ready-d97757)
 
-<a href="https://github.com/renankelm10/briefingMCP/releases/latest"><img src="https://img.shields.io/badge/Download-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="Download" height="40"></a>
-<a href="https://github.com/renankelm10/briefingMCP/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Frenankelm10%2FbriefingMCP%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases/latest"><img src="https://img.shields.io/badge/Download-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="Download" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpaulohramoss%2Fbriefing%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
 
 
 <!-- langs -->
@@ -92,7 +92,7 @@ The result: you and a teammate can each work with your own Claude at the same ti
 
 ## Installation
 
-Download the latest build for your system from **[Releases](https://github.com/renankelm10/briefingMCP/releases)**.
+Download the latest build for your system from **[Releases](https://github.com/paulohramoss/briefing/releases)**.
 
 | System | File | Notes |
 |---|---|---|
@@ -109,8 +109,8 @@ On first launch Briefing creates an example vault in `Documents/Briefing`. Use *
 Requires [Node.js 22+](https://nodejs.org).
 
 ```bash
-git clone https://github.com/renankelm10/briefingMCP.git
-cd briefingMCP
+git clone https://github.com/paulohramoss/briefing.git
+cd briefing
 npm install
 npm start            # run the app
 npm run dist         # build an installer for your current OS (output in release/)
@@ -129,7 +129,7 @@ Briefing must be running on both computers for changes to sync. Anyone with the 
 Open **✦ Segundo cérebro → Conectar automaticamente**, or run:
 
 ```bash
-claude mcp add briefing --scope user -- node "/path/to/briefingMCP/src/mcp/server.mjs"
+claude mcp add briefing --scope user -- node "/path/to/briefing/src/mcp/server.mjs"
 ```
 
 Restart Claude Code. The server exposes your open vault and every team folder:
@@ -189,8 +189,8 @@ On macOS use <kbd>⌘</kbd> instead of <kbd>Ctrl</kbd>.
 Free code signing provided by [SignPath.io](https://about.signpath.io), certificate by [SignPath Foundation](https://signpath.org).
 
 - Windows installers are built from this repository by GitHub Actions ([release.yml](.github/workflows/release.yml)) and signed only from those builds.
-- Committers and reviewers: [renankelm10](https://github.com/renankelm10)
-- Approvers (each signing request): [renankelm10](https://github.com/renankelm10)
+- Committers and reviewers: [paulohramoss](https://github.com/paulohramoss)
+- Approvers (each signing request): [paulohramoss](https://github.com/paulohramoss)
 
 **Privacy:** Briefing has no account, server or telemetry. It connects to other systems only for: the Hyperswarm DHT to find teammates of a team folder the user created or joined (file contents travel end‑to‑end encrypted, directly between those teammates), Hugging Face to download the AI model once (only if search by meaning is turned on), and GitHub to check for app updates (can be turned off in Settings). See [SECURITY.md](SECURITY.md).
 
@@ -200,4 +200,4 @@ Issues and pull requests are welcome. See **[CONTRIBUTING.md](CONTRIBUTING.md)**
 
 ## License
 
-[MIT](LICENSE) © 2026 Renan Kelm
+[MIT](LICENSE) © 2026 Renan Kelm, Paulo Ramos

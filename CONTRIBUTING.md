@@ -7,8 +7,8 @@ Thanks for helping! Briefing is a small, dependency-light codebase — you can r
 Requirements: **Node.js 22+** and Git. Works on Windows, macOS and Linux.
 
 ```bash
-git clone https://github.com/renankelm10/briefingMCP.git
-cd briefingMCP
+git clone https://github.com/paulohramoss/briefing.git
+cd briefing
 npm install
 npm start
 ```

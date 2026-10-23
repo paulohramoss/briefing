@@ -87,7 +87,7 @@ const shots = {
 		document.getElementById('btn-brain').click();
 		await wait(1200);
 		// caminho genérico na imagem (o real depende de onde o projeto foi instalado)
-		document.querySelector('.command-box').textContent = 'claude mcp add briefing --scope user -- node "/path/to/briefingMCP/src/mcp/server.mjs"';
+		document.querySelector('.command-box').textContent = 'claude mcp add briefing --scope user -- node "/path/to/briefing/src/mcp/server.mjs"';
 	`,
 	'06-tasks': `
 		await openNote('Projetos/Campanha de Verão.md');

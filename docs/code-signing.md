@@ -9,7 +9,7 @@ issued to the Foundation, and the release workflow is already prepared for it.
 1. Read the [conditions](https://signpath.org/terms) — the project must be OSI-licensed (MIT ✓),
    publicly built from source (GitHub Actions ✓) and free of malware/PUP behavior.
 2. Submit the application at **https://signpath.org/apply** with:
-   - Repository: `https://github.com/renankelm10/briefingMCP`
+   - Repository: `https://github.com/paulohramoss/briefing`
    - Build system: GitHub Actions — workflow `.github/workflows/release.yml`
    - Artifact: NSIS installer `release/Briefing-Setup-<version>.exe`
 3. When approved, SignPath creates an organization and a project for Briefing.

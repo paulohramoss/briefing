@@ -6,13 +6,13 @@
 
 **Bộ não thứ hai của nhóm bạn — ghi chú Markdown cục bộ, chia sẻ ngang hàng (peer‑to‑peer) và Claude có thể đọc được.**
 
-[![CI](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml/badge.svg)](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml)
+[![CI](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml/badge.svg)](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml)
 [![Giấy phép: MIT](https://img.shields.io/badge/license-MIT-e3a43a.svg)](../../LICENSE)
 ![Nền tảng](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux-555)
 ![MCP](https://img.shields.io/badge/MCP-Claude%20ready-d97757)
 
-<a href="https://github.com/renankelm10/briefingMCP/releases/latest"><img src="https://img.shields.io/badge/T%E1%BA%A3i%20xu%E1%BB%91ng-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="Tải xuống" height="40"></a>
-<a href="https://github.com/renankelm10/briefingMCP/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Frenankelm10%2FbriefingMCP%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases/latest"><img src="https://img.shields.io/badge/T%E1%BA%A3i%20xu%E1%BB%91ng-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="Tải xuống" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpaulohramoss%2Fbriefing%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
 
 
 <!-- langs -->
@@ -92,7 +92,7 @@ Kết quả: bạn và đồng nghiệp có thể cùng lúc làm việc, mỗi 
 
 ## Cài đặt
 
-Tải phiên bản mới nhất cho hệ thống của bạn tại **[Releases](https://github.com/renankelm10/briefingMCP/releases)**.
+Tải phiên bản mới nhất cho hệ thống của bạn tại **[Releases](https://github.com/paulohramoss/briefing/releases)**.
 
 | Hệ thống | Tệp | Ghi chú |
 |---|---|---|
@@ -107,8 +107,8 @@ Lần đầu khởi động, Briefing tạo một vault mẫu trong `Tài liệu
 Cần [Node.js 22+](https://nodejs.org).
 
 ```bash
-git clone https://github.com/renankelm10/briefingMCP.git
-cd briefingMCP
+git clone https://github.com/paulohramoss/briefing.git
+cd briefing
 npm install
 npm start            # chạy ứng dụng
 npm run dist         # tạo bộ cài cho hệ thống của bạn (trong release/)
@@ -127,7 +127,7 @@ Briefing phải đang chạy trên cả hai máy tính để đồng bộ. Ai c�
 Mở **✦ Segundo cérebro → Conectar automaticamente**, hoặc chạy:
 
 ```bash
-claude mcp add briefing --scope user -- node "/path/to/briefingMCP/src/mcp/server.mjs"
+claude mcp add briefing --scope user -- node "/path/to/briefing/src/mcp/server.mjs"
 ```
 
 Khởi động lại Claude Code. Máy chủ cung cấp vault đang mở và mọi thư mục nhóm:
@@ -188,4 +188,4 @@ Rất hoan nghênh issue và pull request. Xem **[CONTRIBUTING.md](../../CONTRIB
 
 ## Giấy phép
 
-[MIT](../../LICENSE) © 2026 Renan Kelm
+[MIT](../../LICENSE) © 2026 Renan Kelm, Paulo Ramos

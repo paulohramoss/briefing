@@ -6,13 +6,13 @@
 
 **Второй мозг вашей команды — локальные заметки в Markdown, общие по технологии peer‑to‑peer и доступные для Claude.**
 
-[![CI](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml/badge.svg)](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml)
+[![CI](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml/badge.svg)](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml)
 [![Лицензия: MIT](https://img.shields.io/badge/лицензия-MIT-e3a43a.svg)](../../LICENSE)
 ![Платформы](https://img.shields.io/badge/платформы-Windows%20%7C%20macOS%20%7C%20Linux-555)
 ![MCP](https://img.shields.io/badge/MCP-готово%20для%20Claude-d97757)
 
-<a href="https://github.com/renankelm10/briefingMCP/releases/latest"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="Скачать" height="40"></a>
-<a href="https://github.com/renankelm10/briefingMCP/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Frenankelm10%2FbriefingMCP%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases/latest"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="Скачать" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpaulohramoss%2Fbriefing%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
 
 
 <!-- langs -->
@@ -92,7 +92,7 @@ Briefing — настольное приложение для заметок, с
 
 ## Установка
 
-Скачайте последнюю версию для своей системы в разделе **[Releases](https://github.com/renankelm10/briefingMCP/releases)**.
+Скачайте последнюю версию для своей системы в разделе **[Releases](https://github.com/paulohramoss/briefing/releases)**.
 
 | Система | Файл | Примечания |
 |---|---|---|
@@ -107,8 +107,8 @@ Briefing — настольное приложение для заметок, с
 Нужен [Node.js 22+](https://nodejs.org).
 
 ```bash
-git clone https://github.com/renankelm10/briefingMCP.git
-cd briefingMCP
+git clone https://github.com/paulohramoss/briefing.git
+cd briefing
 npm install
 npm start            # запуск приложения
 npm run dist         # сборка установщика для вашей системы (в release/)
@@ -127,7 +127,7 @@ npm run dist         # сборка установщика для вашей с�
 Откройте **✦ Segundo cérebro → Conectar automaticamente** или выполните:
 
 ```bash
-claude mcp add briefing --scope user -- node "/путь/к/briefingMCP/src/mcp/server.mjs"
+claude mcp add briefing --scope user -- node "/путь/к/briefing/src/mcp/server.mjs"
 ```
 
 Перезапустите Claude Code. Сервер открывает доступ к текущему хранилищу и всем папкам команд:
@@ -188,4 +188,4 @@ Issues и pull requests приветствуются. Подробности о 
 
 ## Лицензия
 
-[MIT](../../LICENSE) © 2026 Renan Kelm
+[MIT](../../LICENSE) © 2026 Renan Kelm, Paulo Ramos

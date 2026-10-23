@@ -6,13 +6,13 @@
 
 **팀의 두 번째 뇌 — 로컬 Markdown 노트를 P2P로 공유하고, Claude가 읽을 수 있습니다.**
 
-[![CI](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml/badge.svg)](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml)
+[![CI](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml/badge.svg)](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml)
 [![라이선스: MIT](https://img.shields.io/badge/license-MIT-e3a43a.svg)](../../LICENSE)
 ![플랫폼](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux-555)
 ![MCP](https://img.shields.io/badge/MCP-Claude%20ready-d97757)
 
-<a href="https://github.com/renankelm10/briefingMCP/releases/latest"><img src="https://img.shields.io/badge/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="다운로드" height="40"></a>
-<a href="https://github.com/renankelm10/briefingMCP/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Frenankelm10%2FbriefingMCP%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases/latest"><img src="https://img.shields.io/badge/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="다운로드" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpaulohramoss%2Fbriefing%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
 
 
 <!-- langs -->
@@ -92,7 +92,7 @@ Briefing은 **중간에 클라우드 서비스 없이 하나의 공유 지식 �
 
 ## 설치
 
-**[Releases](https://github.com/renankelm10/briefingMCP/releases)**에서 사용하는 시스템에 맞는 최신 버전을 내려받으세요.
+**[Releases](https://github.com/paulohramoss/briefing/releases)**에서 사용하는 시스템에 맞는 최신 버전을 내려받으세요.
 
 | 시스템 | 파일 | 참고 |
 |---|---|---|
@@ -107,8 +107,8 @@ Briefing은 **중간에 클라우드 서비스 없이 하나의 공유 지식 �
 [Node.js 22+](https://nodejs.org)가 필요합니다.
 
 ```bash
-git clone https://github.com/renankelm10/briefingMCP.git
-cd briefingMCP
+git clone https://github.com/paulohramoss/briefing.git
+cd briefing
 npm install
 npm start            # 앱 실행
 npm run dist         # 현재 시스템용 설치 파일 생성(release/에 출력)
@@ -127,7 +127,7 @@ npm run dist         # 현재 시스템용 설치 파일 생성(release/에 출�
 **✦ Segundo cérebro → Conectar automaticamente**를 열거나 다음을 실행하세요:
 
 ```bash
-claude mcp add briefing --scope user -- node "/path/to/briefingMCP/src/mcp/server.mjs"
+claude mcp add briefing --scope user -- node "/path/to/briefing/src/mcp/server.mjs"
 ```
 
 Claude Code를 다시 시작하세요. 서버는 열려 있는 보관함과 모든 팀 폴더를 제공합니다:
@@ -188,4 +188,4 @@ macOS에서는 <kbd>Ctrl</kbd> 대신 <kbd>⌘</kbd>를 사용하세요.
 
 ## 라이선스
 
-[MIT](../../LICENSE) © 2026 Renan Kelm
+[MIT](../../LICENSE) © 2026 Renan Kelm, Paulo Ramos

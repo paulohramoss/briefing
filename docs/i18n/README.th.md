@@ -6,13 +6,13 @@
 
 **สมองที่สองของทีมคุณ — โน้ต Markdown บนเครื่อง แชร์แบบเพียร์ทูเพียร์ และ Claude อ่านได้**
 
-[![CI](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml/badge.svg)](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml)
+[![CI](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml/badge.svg)](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml)
 [![สัญญาอนุญาต: MIT](https://img.shields.io/badge/license-MIT-e3a43a.svg)](../../LICENSE)
 ![แพลตฟอร์ม](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux-555)
 ![MCP](https://img.shields.io/badge/MCP-Claude%20ready-d97757)
 
-<a href="https://github.com/renankelm10/briefingMCP/releases/latest"><img src="https://img.shields.io/badge/%E0%B8%94%E0%B8%B2%E0%B8%A7%E0%B8%99%E0%B9%8C%E0%B9%82%E0%B8%AB%E0%B8%A5%E0%B8%94-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="ดาวน์โหลด" height="40"></a>
-<a href="https://github.com/renankelm10/briefingMCP/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Frenankelm10%2FbriefingMCP%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases/latest"><img src="https://img.shields.io/badge/%E0%B8%94%E0%B8%B2%E0%B8%A7%E0%B8%99%E0%B9%8C%E0%B9%82%E0%B8%AB%E0%B8%A5%E0%B8%94-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="ดาวน์โหลด" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpaulohramoss%2Fbriefing%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
 
 
 <!-- langs -->
@@ -92,7 +92,7 @@ Briefing เป็นแอปจดโน้ตบนเดสก์ท็อ�
 
 ## การติดตั้ง
 
-ดาวน์โหลดเวอร์ชันล่าสุดสำหรับระบบของคุณจาก **[Releases](https://github.com/renankelm10/briefingMCP/releases)**
+ดาวน์โหลดเวอร์ชันล่าสุดสำหรับระบบของคุณจาก **[Releases](https://github.com/paulohramoss/briefing/releases)**
 
 | ระบบ | ไฟล์ | หมายเหตุ |
 |---|---|---|
@@ -107,8 +107,8 @@ Briefing เป็นแอปจดโน้ตบนเดสก์ท็อ�
 ต้องใช้ [Node.js 22+](https://nodejs.org)
 
 ```bash
-git clone https://github.com/renankelm10/briefingMCP.git
-cd briefingMCP
+git clone https://github.com/paulohramoss/briefing.git
+cd briefing
 npm install
 npm start            # รันแอป
 npm run dist         # สร้างตัวติดตั้งสำหรับระบบของคุณ (ใน release/)
@@ -127,7 +127,7 @@ npm run dist         # สร้างตัวติดตั้งสำหร
 เปิด **✦ Segundo cérebro → Conectar automaticamente** หรือรัน:
 
 ```bash
-claude mcp add briefing --scope user -- node "/path/to/briefingMCP/src/mcp/server.mjs"
+claude mcp add briefing --scope user -- node "/path/to/briefing/src/mcp/server.mjs"
 ```
 
 รีสตาร์ต Claude Code เซิร์ฟเวอร์จะเปิดให้เข้าถึง vault ที่เปิดอยู่และโฟลเดอร์ทีมทั้งหมด:
@@ -188,4 +188,4 @@ claude mcp add briefing --scope user -- node "/path/to/briefingMCP/src/mcp/serve
 
 ## สัญญาอนุญาต
 
-[MIT](../../LICENSE) © 2026 Renan Kelm
+[MIT](../../LICENSE) © 2026 Renan Kelm, Paulo Ramos

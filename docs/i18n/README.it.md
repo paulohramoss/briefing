@@ -6,13 +6,13 @@
 
 **Il secondo cervello del tuo team: note Markdown locali, condivise peer‑to‑peer e leggibili da Claude.**
 
-[![CI](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml/badge.svg)](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml)
+[![CI](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml/badge.svg)](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml)
 [![Licenza: MIT](https://img.shields.io/badge/licenza-MIT-e3a43a.svg)](../../LICENSE)
 ![Piattaforme](https://img.shields.io/badge/piattaforme-Windows%20%7C%20macOS%20%7C%20Linux-555)
 ![MCP](https://img.shields.io/badge/MCP-pronto%20per%20Claude-d97757)
 
-<a href="https://github.com/renankelm10/briefingMCP/releases/latest"><img src="https://img.shields.io/badge/Scarica-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="Scarica" height="40"></a>
-<a href="https://github.com/renankelm10/briefingMCP/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Frenankelm10%2FbriefingMCP%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases/latest"><img src="https://img.shields.io/badge/Scarica-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="Scarica" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpaulohramoss%2Fbriefing%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
 
 
 <!-- langs -->
@@ -92,7 +92,7 @@ Il risultato: tu e un collega potete lavorare ciascuno con il proprio Claude nel
 
 ## Installazione
 
-Scarica l'ultima versione per il tuo sistema da **[Releases](https://github.com/renankelm10/briefingMCP/releases)**.
+Scarica l'ultima versione per il tuo sistema da **[Releases](https://github.com/paulohramoss/briefing/releases)**.
 
 | Sistema | File | Note |
 |---|---|---|
@@ -107,8 +107,8 @@ Al primo avvio Briefing crea un vault di esempio in `Documenti/Briefing`. Usa **
 Richiede [Node.js 22+](https://nodejs.org).
 
 ```bash
-git clone https://github.com/renankelm10/briefingMCP.git
-cd briefingMCP
+git clone https://github.com/paulohramoss/briefing.git
+cd briefing
 npm install
 npm start            # avvia l'app
 npm run dist         # crea l'installer per il tuo sistema (in release/)
@@ -127,7 +127,7 @@ Briefing deve essere aperto su entrambi i computer per sincronizzare. Chiunque a
 Apri **✦ Segundo cérebro → Conectar automaticamente**, oppure esegui:
 
 ```bash
-claude mcp add briefing --scope user -- node "/percorso/di/briefingMCP/src/mcp/server.mjs"
+claude mcp add briefing --scope user -- node "/percorso/di/briefing/src/mcp/server.mjs"
 ```
 
 Riavvia Claude Code. Il server espone il vault aperto e tutte le cartelle del team:
@@ -188,4 +188,4 @@ Issue e pull request sono benvenute. Consulta **[CONTRIBUTING.md](../../CONTRIBU
 
 ## Licenza
 
-[MIT](../../LICENSE) © 2026 Renan Kelm
+[MIT](../../LICENSE) © 2026 Renan Kelm, Paulo Ramos

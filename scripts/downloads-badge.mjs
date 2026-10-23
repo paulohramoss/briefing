@@ -6,7 +6,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const repo = process.argv[2] ?? 'renankelm10/briefingMCP';
+const repo = process.argv[2] ?? 'paulohramoss/briefing';
 const INSTALLER = /\.(exe|dmg|zip|AppImage|deb)$/i;
 const headers = { Accept: 'application/vnd.github+json', 'User-Agent': 'briefing-downloads' };
 if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;

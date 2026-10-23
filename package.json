@@ -3,15 +3,15 @@
   "productName": "Briefing",
   "version": "0.3.3",
   "description": "Local-first Markdown notes with peer-to-peer team folders and a local AI second brain that Claude can read through MCP.",
-  "author": "Renan Kelm <77139050+renankelm10@users.noreply.github.com>",
+  "author": "Paulo Ramos <pramosphdr548@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/renankelm10/briefingMCP",
+  "homepage": "https://github.com/paulohramoss/briefing",
   "repository": {
     "type": "git",
-    "url": "https://github.com/renankelm10/briefingMCP.git"
+    "url": "https://github.com/paulohramoss/briefing.git"
   },
   "bugs": {
-    "url": "https://github.com/renankelm10/briefingMCP/issues"
+    "url": "https://github.com/paulohramoss/briefing/issues"
   },
   "keywords": [
     "markdown",
@@ -74,8 +74,8 @@
     "asar": false,
     "publish": {
       "provider": "github",
-      "owner": "renankelm10",
-      "repo": "briefingMCP",
+      "owner": "paulohramoss",
+      "repo": "briefing",
       "releaseType": "draft"
     },
     "directories": {
@@ -142,7 +142,7 @@
       "artifactName": "Briefing-${version}.${ext}",
       "category": "Office",
       "icon": "build/icon.png",
-      "maintainer": "Renan Kelm <77139050+renankelm10@users.noreply.github.com>",
+      "maintainer": "Paulo Ramos <pramosphdr548@gmail.com>",
       "synopsis": "Local-first notes, P2P team folders and a local AI second brain"
     }
   }

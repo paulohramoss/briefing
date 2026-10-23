@@ -6,7 +6,7 @@
 // Só olha releases publicadas: rascunhos e pré-lançamentos são ignorados.
 const { app, shell, net } = require('electron');
 
-const REPO = 'renankelm10/briefingMCP';
+const REPO = 'paulohramoss/briefing';
 const RELEASES_URL = `https://github.com/${REPO}/releases/latest`;
 const FIRST_CHECK_MS = 20_000;
 const INTERVAL_MS = 6 * 60 * 60 * 1000;

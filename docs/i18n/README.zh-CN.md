@@ -6,13 +6,13 @@
 
 **你团队的第二大脑——本地 Markdown 笔记，点对点共享，并可被 Claude 读取。**
 
-[![CI](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml/badge.svg)](https://github.com/renankelm10/briefingMCP/actions/workflows/ci.yml)
+[![CI](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml/badge.svg)](https://github.com/paulohramoss/briefing/actions/workflows/ci.yml)
 [![许可证: MIT](https://img.shields.io/badge/license-MIT-e3a43a.svg)](../../LICENSE)
 ![平台](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux-555)
 ![MCP](https://img.shields.io/badge/MCP-Claude%20ready-d97757)
 
-<a href="https://github.com/renankelm10/briefingMCP/releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="下载" height="40"></a>
-<a href="https://github.com/renankelm10/briefingMCP/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Frenankelm10%2FbriefingMCP%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-Windows%20%7C%20macOS%20%7C%20Linux-e3a43a?style=for-the-badge&logo=github&logoColor=white" alt="下载" height="40"></a>
+<a href="https://github.com/paulohramoss/briefing/releases"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpaulohramoss%2Fbriefing%2Fmain%2Fdocs%2Fdownloads.json&style=for-the-badge" alt="Downloads" height="40"></a>
 
 
 <!-- langs -->
@@ -92,7 +92,7 @@ Briefing 是一款桌面笔记应用，面向希望拥有**共享知识库、但
 
 ## 安装
 
-在 **[Releases](https://github.com/renankelm10/briefingMCP/releases)** 页面下载适合你系统的最新版本。
+在 **[Releases](https://github.com/paulohramoss/briefing/releases)** 页面下载适合你系统的最新版本。
 
 | 系统 | 文件 | 说明 |
 |---|---|---|
@@ -107,8 +107,8 @@ Briefing 是一款桌面笔记应用，面向希望拥有**共享知识库、但
 需要 [Node.js 22+](https://nodejs.org)。
 
 ```bash
-git clone https://github.com/renankelm10/briefingMCP.git
-cd briefingMCP
+git clone https://github.com/paulohramoss/briefing.git
+cd briefing
 npm install
 npm start            # 运行应用
 npm run dist         # 为当前系统构建安装包（输出到 release/）
@@ -127,7 +127,7 @@ npm run dist         # 为当前系统构建安装包（输出到 release/）
 打开 **✦ Segundo cérebro → Conectar automaticamente**，或运行：
 
 ```bash
-claude mcp add briefing --scope user -- node "/path/to/briefingMCP/src/mcp/server.mjs"
+claude mcp add briefing --scope user -- node "/path/to/briefing/src/mcp/server.mjs"
 ```
 
 重启 Claude Code。服务器会提供当前打开的仓库和所有团队文件夹：
@@ -188,4 +188,4 @@ claude mcp add briefing --scope user -- node "/path/to/briefingMCP/src/mcp/serve
 
 ## 许可证
 
-[MIT](../../LICENSE) © 2026 Renan Kelm
+[MIT](../../LICENSE) © 2026 Renan Kelm, Paulo Ramos
