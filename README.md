@@ -193,11 +193,3 @@ Free code signing provided by [SignPath.io](https://about.signpath.io), certific
 - Approvers (each signing request): [paulohramoss](https://github.com/paulohramoss)
 
 **Privacy:** Briefing has no account, server or telemetry. It connects to other systems only for: the Hyperswarm DHT to find teammates of a team folder the user created or joined (file contents travel end‑to‑end encrypted, directly between those teammates), Hugging Face to download the AI model once (only if search by meaning is turned on), and GitHub to check for app updates (can be turned off in Settings). See [SECURITY.md](SECURITY.md).
-
-## Contributing
-
-Issues and pull requests are welcome. See **[CONTRIBUTING.md](CONTRIBUTING.md)** for setup, tests and project layout.
-
-## License
-
-[MIT](LICENSE) © 2026 Renan Kelm, Paulo Ramos
